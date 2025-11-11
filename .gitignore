@@ -1,0 +1,42 @@
+# Ignore Python bytecode and caches
+__pycache__/
+*.pyc
+
+# Ignore Python virtual environments
+venv/
+env/
+ENV/
+pyvenv.cfg
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore build, distribution, and egg-info folders
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Ignore IDE/editor folders
+.vscode/
+.idea/
+
+# Ignore data subfolders (optional—if large, sensitive, or generated)
+data/embeddings/
+data/faces/
+
+# Ignore model files (optional—if large or not meant for source control)
+models/
+
+# Ignore log files
+*.log
+
+# Ignore media/test files (optional)
+test_image.jpeg
+test_video.mp4
+
+# Ignore include and lib directories in venv (handled by venv/)
+include/
+lib/
+share/
+bin/
